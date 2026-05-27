@@ -498,7 +498,7 @@ function Contact() {
       
   
        <form
-  action="https://formsubmit.co/orbsea@gmail.com"
+  action="https://formsubmit.co/orbseadomes@gmail.com"
   method="POST"
   className="space-y-5"
 >
