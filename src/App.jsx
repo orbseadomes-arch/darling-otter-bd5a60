@@ -9,6 +9,7 @@ function Nav() {
       <div className="max-w-7xl mx-auto px-0 py-0 flex items-center justify-between">
         <a href="#hero" className="flex items-center gap-0">
           <img src="./logo-v4a.png" alt="OrbSea" className="h-30 w-auto" />
+          <img src={`${import.meta.env.BASE_URL}logo-v4a.png`} />
         </a>
 
         <div className="hidden md:flex items-center gap-8 text-sm font-medium text-slate-300">
