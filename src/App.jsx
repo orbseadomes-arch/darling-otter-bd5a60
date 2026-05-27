@@ -440,7 +440,7 @@ function Quote() {
 function Contact() {
   const [submitted, setSubmitted] = useState(false)
 
-  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+  function handleSubmit(e) {
     e.preventDefault()
     const form = e.currentTarget
     const data = new FormData(form)
