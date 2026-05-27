@@ -496,47 +496,124 @@ function Contact() {
              
       
       
-      <form
+  
+       <form
   action="https://formsubmit.co/orbsea@gmail.com"
   method="POST"
-  className="space-y-6"
+  className="space-y-5"
 >
-  <input
-    type="text"
-    name="name"
-    placeholder="Your Name"
-    required
-    className="w-full p-4 rounded-lg text-black"
-  />
+  <input type="hidden" name="_captcha" value="false" />
+  <input type="hidden" name="_subject" value="New OrbSea Enquiry!" />
+  <input type="hidden" name="_template" value="table" />
 
-  <input
-    type="email"
-    name="email"
-    placeholder="Your Email"
-    required
-    className="w-full p-4 rounded-lg text-black"
-  />
+  <div className="grid sm:grid-cols-2 gap-4">
+    <div>
+      <label className="block text-xs uppercase tracking-widest text-slate-400 mb-2">
+        First Name
+      </label>
+      <input
+        type="text"
+        name="first-name"
+        required
+        className="w-full rounded-xl px-4 py-3 text-white text-sm transition-all"
+        style={{
+          background: 'rgba(255,255,255,0.05)',
+          border: '1px solid rgba(255,255,255,0.1)'
+        }}
+        placeholder="Your first name"
+      />
+    </div>
 
-  <textarea
-    name="message"
-    placeholder="Your Message"
-    required
-    rows="6"
-    className="w-full p-4 rounded-lg text-black"
-  ></textarea>
+    <div>
+      <label className="block text-xs uppercase tracking-widest text-slate-400 mb-2">
+        Last Name
+      </label>
+      <input
+        type="text"
+        name="last-name"
+        required
+        className="w-full rounded-xl px-4 py-3 text-white text-sm transition-all"
+        style={{
+          background: 'rgba(255,255,255,0.05)',
+          border: '1px solid rgba(255,255,255,0.1)'
+        }}
+        placeholder="Your last name"
+      />
+    </div>
+  </div>
+
+  <div>
+    <label className="block text-xs uppercase tracking-widest text-slate-400 mb-2">
+      Email Address
+    </label>
+    <input
+      type="email"
+      name="email"
+      required
+      className="w-full rounded-xl px-4 py-3 text-white text-sm transition-all"
+      style={{
+        background: 'rgba(255,255,255,0.05)',
+        border: '1px solid rgba(255,255,255,0.1)'
+      }}
+      placeholder="you@example.com"
+    />
+  </div>
+
+  <div>
+    <label className="block text-xs uppercase tracking-widest text-slate-400 mb-2">
+      Enquiry Type
+    </label>
+    <select
+      name="enquiry-type"
+      required
+      className="w-full rounded-xl px-4 py-3 text-white text-sm transition-all appearance-none"
+      style={{
+        background: 'rgba(13,37,69,0.9)',
+        border: '1px solid rgba(255,255,255,0.1)'
+      }}
+      defaultValue=""
+    >
+      <option value="" disabled>
+        Select an option
+      </option>
+      <option value="private-booking">Private Booking</option>
+      <option value="resort-partnership">
+        Resort / Developer Partnership
+      </option>
+      <option value="eco-tourism">Eco-Tourism Project</option>
+      <option value="remote-work">Remote Work Stay</option>
+      <option value="other">Other Enquiry</option>
+    </select>
+  </div>
+
+  <div>
+    <label className="block text-xs uppercase tracking-widest text-slate-400 mb-2">
+      Message
+    </label>
+    <textarea
+      name="message"
+      rows={4}
+      required
+      className="w-full rounded-xl px-4 py-3 text-white text-sm transition-all resize-none"
+      style={{
+        background: 'rgba(255,255,255,0.05)',
+        border: '1px solid rgba(255,255,255,0.1)'
+      }}
+      placeholder="Tell us about your vision or enquiry..."
+    />
+  </div>
 
   <button
     type="submit"
-    className="px-8 py-4 bg-yellow-500 text-black rounded-full font-bold"
+    className="w-full py-4 rounded-xl font-semibold text-sm tracking-wide transition-all hover:scale-[1.02] hover:shadow-lg"
+    style={{
+      background: 'linear-gradient(135deg, #c9a84c, #e8c97a)',
+      color: '#0a1628'
+    }}
   >
-    Send Message
+    Send Enquiry
   </button>
 </form>
-      
-      
-      
-      
-      
       
       
 
