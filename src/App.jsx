@@ -587,7 +587,7 @@ function Footer() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="flex flex-col md:flex-row justify-between items-center gap-6">
           <div className="flex items-center gap-3">
-            <img src={`${import.meta.env.BASE_URL}orbsea-logo.png`} alt="OrbSea" className="h-8 w-auto" />
+            <img src={`${import.meta.env.BASE_URL}logo-g7.png`} alt="OrbSea" className="h-8 w-auto" />
           </div>
           <div className="text-slate-500 text-sm text-center">
             &copy; {new Date().getFullYear()} OrbSea Luxury Ocean Domes. All rights reserved.
