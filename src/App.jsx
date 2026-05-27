@@ -186,7 +186,7 @@ function Experience() {
                 style={{ boxShadow: '0 40px 80px rgba(0,0,0,0.5), 0 0 60px rgba(14,116,144,0.15)' }}
               >
                 <img
-                  src="/hero-dome.png"
+                  src={`${import.meta.env.BASE_URL}hero-dome.png`}
                   alt="OrbSea dome interior and exterior"
                   className="w-full h-full object-cover"
                 />
