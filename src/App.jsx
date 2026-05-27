@@ -1,9 +1,6 @@
 import { useState } from 'react'
 import './styles.css'
 
-import { useState } from 'react'
-
-
 function Nav() {
   const [menuOpen, setMenuOpen] = useState(false)
 
