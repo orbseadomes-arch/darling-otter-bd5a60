@@ -65,7 +65,6 @@ function Hero() {
       <div className="absolute inset-0">
         <img
           src={`${import.meta.env.BASE_URL}hero-dome.png`}
-          src="/hero-dome.png"
           alt="OrbSea Luxury Ocean Dome"
           className="w-full h-full object-cover object-center"
         />
