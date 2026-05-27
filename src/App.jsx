@@ -448,7 +448,7 @@ function Contact() {
     fetch('/orbsea-enquiry.html', {
       method: 'POST',
       headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-      body: new URLSearchParams(data as unknown as Record<string, string>).toString(),
+     body: new URLSearchParams(data).toString(),
     })
       .then(() => setSubmitted(true))
       .catch(() => setSubmitted(true))
