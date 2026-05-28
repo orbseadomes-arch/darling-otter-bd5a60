@@ -474,7 +474,7 @@ function Contact() {
             <div className="space-y-4">
               {[
                 { label: 'Minimum Stay', value: 'From 1 night' },
-                { label: 'Deployment', value: 'Cardiff Bay, Cardiff, UK' },
+                { label: 'Deployment', value: 'Cardiff Bay, UK' },
                 { label: 'Inquiry Response', value: 'Within 24 hours' },
               ].map((item) => (
                 <div key={item.label} className="flex gap-4 text-sm">
