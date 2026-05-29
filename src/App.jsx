@@ -284,11 +284,11 @@ function Sustainability() {
       <div className="max-w-7xl mx-auto px-6">
         <div className="grid md:grid-cols-2 gap-16 items-center">
           <div
-            className="relative rounded-3xl overflow-hidden"
+            <div
+            className="relative rounded-3xl overflow-hidden p-6 md:p-12"
             style={{
               background: 'linear-gradient(135deg, rgba(14,116,144,0.15), rgba(34,211,238,0.08))',
               border: '1px solid rgba(14,116,144,0.2)',
-              padding: '3rem',
             }}
           >
             <div className="text-center">
