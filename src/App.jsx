@@ -301,7 +301,7 @@ function Sustainability() {
                   { v: '100%', l: 'Recyclable' },
                 ].map((item) => (
                   <div key={item.l} className="card-glass rounded-xl p-3">
-                    <div className="font-serif text-2xl font-light gold-gradient">{item.v}</div>
+                   <div className="font-serif text-lg sm:text-xl md:text-2xl font-light gold-gradient break-words">{item.v}</div>
                     <div className="text-xs text-slate-400 mt-1">{item.l}</div>
                   </div>
                 ))}
