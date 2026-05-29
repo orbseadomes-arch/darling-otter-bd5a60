@@ -292,7 +292,7 @@ function Sustainability() {
             }}
           >
             <div className="text-center">
-              <div className="font-serif text-8xl font-light gold-gradient mb-2">Rambex</div>
+              <div className="font-serif text-5xl sm:text-6xl md:text-8xl font-light gold-gradient mb-2 break-words">Rambex</div>
               <div className="text-slate-400 text-sm tracking-widest uppercase">Off-Grid Technology Partner</div>
               <div className="mt-8 grid grid-cols-3 gap-4 text-center">
                 {[
